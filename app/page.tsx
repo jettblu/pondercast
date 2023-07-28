@@ -41,7 +41,7 @@ export default function Home() {
            <Image
             src="/jett.png"
             alt="Vercel Logo"
-            className="rounded-full background-animate bg-gradient-to-r from-gary-100 to-gray-900"
+            className="rounded-full background-animate bg-gradient-to-r from-gray-100 to-gray-900"
             width={300}
             height={300}
             priority
