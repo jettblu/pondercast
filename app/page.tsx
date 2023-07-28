@@ -33,7 +33,7 @@ export default function Home() {
           <Image
             src="/alex.png"
             alt="Vercel Logo"
-            className="rounded-full dark:bg-gray-200 bg-gray-700"
+            className="rounded-full background-animate from-bg-gray-100 to-bg-gray-900 hover:translate-x-6 duration-300 ease-in-out"
             width={300}
             height={300}
             priority
@@ -41,7 +41,7 @@ export default function Home() {
            <Image
             src="/jett.png"
             alt="Vercel Logo"
-            className="rounded-full dark:bg-gray-900 bg-gray-100"
+            className="rounded-full background-animate from-bg-gray-900 to-bg-gray-100 hover:-translate-x-6 duration-300 ease-in-out"
             width={300}
             height={300}
             priority
