@@ -52,7 +52,7 @@ export default function Home() {
              <p className='text-center dark:text-gray-200 text-gray-700 font-semibold bg-gray-500/20 dark:bg-gray-400/20 p-2 rounded-xl'>A podcast full of perplexing questions and provocative opinions.</p>
       </div>
 
-      <div className="mt-4 mb-32 grid text-center lg:mb-0 lg:grid-cols-1 lg:text-left">
+      <div className="mt-4 mb-32 grid text-center lg:mb-8 lg:grid-cols-1 lg:text-left">
         <Spotify wide link="https://open.spotify.com/show/1KEm0JWmjoZIO4fqNHQ51E" />
         {/* <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
