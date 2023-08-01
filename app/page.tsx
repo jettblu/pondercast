@@ -31,10 +31,11 @@ export default function Home() {
       <div className="relative flex flex-col space-y-6 place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-gray-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-gray-700 before:dark:opacity-10 after:dark:from-gray-900 after:dark:via-gray-400 after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         {/* side by side slightly overlapping circlular images */}
         <div className="relative flex flex-row items-center justify-center w-1/2 h-1/2 -space-x-6 mx-auto">
+
           <Image
             src="/alex.png"
             alt="Vercel Logo"
-            className="rounded-full background-animate bg-gradient-to-r from-gray-900 to-gray-100"
+            className="rounded-full background-animate bg-gradient-to-r from-gray-900 to-gray-100 hover:translate-y-12"
             width={300}
             height={300}
             priority
@@ -42,7 +43,7 @@ export default function Home() {
            <Image
             src="/jett.png"
             alt="Vercel Logo"
-            className="rounded-full background-animate bg-gradient-to-r from-gray-100 to-gray-900"
+            className="rounded-full background-animate bg-gradient-to-r from-gray-100 to-gray-900 hover:scale-110 transform"
             width={300}
             height={300}
             priority
