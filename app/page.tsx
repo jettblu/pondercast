@@ -35,7 +35,7 @@ export default function Home() {
           <Image
             src="/alex.png"
             alt="Vercel Logo"
-            className="rounded-full background-animate bg-gradient-to-r from-gray-900 to-gray-100 hover:translate-y-12"
+            className="rounded-full background-animate bg-gradient-to-r from-gray-900 to-gray-100"
             width={300}
             height={300}
             priority
@@ -43,7 +43,7 @@ export default function Home() {
            <Image
             src="/jett.png"
             alt="Vercel Logo"
-            className="rounded-full background-animate bg-gradient-to-r from-gray-100 to-gray-900 hover:scale-110 transform"
+            className="rounded-full background-animate bg-gradient-to-r from-gray-100 to-gray-900"
             width={300}
             height={300}
             priority
